@@ -10,6 +10,7 @@
   <link rel="stylesheet" href="../css/style.css">
   <link rel="stylesheet" href="../css/responsive.css">
   <script src="../js/main.js" defer></script>
+  <script src="../js/gallery.js" defer></script>
 </head>
 <body class="gallery-page">
   <a class="skip-link" href="#main">Skip to content</a>
@@ -100,5 +101,12 @@
       </div>
     </section>
   </main>
+  <dialog class="gallery-viewer" aria-label="Gallery image viewer">
+    <button class="gallery-viewer-nav gallery-viewer-previous" type="button" aria-label="Previous image">&#8249;</button>
+    <figure class="gallery-viewer-figure">
+      <img class="gallery-viewer-image" alt="">
+    </figure>
+    <button class="gallery-viewer-nav gallery-viewer-next" type="button" aria-label="Next image">&#8250;</button>
+  </dialog>
 </body>
 </html>

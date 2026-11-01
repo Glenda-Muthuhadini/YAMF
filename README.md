@@ -18,7 +18,7 @@ The shared glass header stays fixed while scrolling, floating 16px from the view
 
 The Our Brands section follows the hero with three non-clickable brand cards and hover animations, using the supplied emblems in `assets/images/brands/`. The cards stack on mobile. The Gallery page's Miss Teen Elegant South Africa section uses photos from `assets/images/Miss Teen Elegant South Africa/`.
 
-The Gallery page reuses the landing-page navigation and has square photo placeholders grouped by pageant and programme. The placeholders can be replaced when gallery photos are supplied.
+The Gallery page reuses the landing-page navigation and groups square photos by pageant and programme. Photos open in an accessible image viewer with previous/next controls and keyboard navigation.
 
 The landing-page hero uses `assets/images/hero-models-clean.png` at all viewport widths. At widths up to 800px, a dark overlay gives the artwork a black-fog appearance and the hero and focus-strip text switches to white for contrast. The desktop artwork was edited from the supplied reference with the built-in image generation tool. Edit prompt: remove all text, logos, navigation, buttons, icons, panels and the feature strip; preserve the three models and soft architectural background, filling removed areas seamlessly. The original reference is not used by the page.
 
