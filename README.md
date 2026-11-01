@@ -20,7 +20,7 @@ The Our Brands section follows the hero with three non-clickable brand cards and
 
 The Gallery page reuses the landing-page navigation and has square photo placeholders grouped by pageant and programme. The placeholders can be replaced when gallery photos are supplied.
 
-The desktop model artwork uses `assets/images/hero-models-clean.png`. At viewport widths up to 800px, the landing-page hero uses `assets/images/Purple Monochrome Gown Portrait Trio.png` with white eyebrow, heading, and supporting text. The desktop artwork was edited from the supplied reference with the built-in image generation tool. Edit prompt: remove all text, logos, navigation, buttons, icons, panels and the feature strip; preserve the three models and soft architectural background, filling removed areas seamlessly. The original reference is not used by the page.
+The landing-page hero uses `assets/images/hero-models-clean.png` at all viewport widths. At widths up to 800px, a dark overlay gives the artwork a black-fog appearance and the hero and focus-strip text switches to white for contrast. The desktop artwork was edited from the supplied reference with the built-in image generation tool. Edit prompt: remove all text, logos, navigation, buttons, icons, panels and the feature strip; preserve the three models and soft architectural background, filling removed areas seamlessly. The original reference is not used by the page.
 
 The header displays the complete original rectangular logo at its natural aspect ratio, without added organization text or registration number. The heading, description, navigation, buttons, and feature strip are HTML. About, Gallery and Contact pages are implemented; other files in `pages/` remain placeholders for future page content.
 
