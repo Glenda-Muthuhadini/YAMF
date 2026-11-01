@@ -1,0 +1,104 @@
+.competitions-shell{min-height:100vh;background:radial-gradient(ellipse at 65% 12%,#e1d0eb,transparent 65%),#f5edf8}
+.competitions-hero{min-height:410px;display:flex;align-items:center;position:relative;padding-top:var(--hero-clearance);padding-bottom:85px;background-color:#eee1f5;background-image:linear-gradient(90deg,#24102be8 0%,#30143bbd 52%,#30143b45 100%),url('../assets/images/competition-crown.png');background-position:center 48%;background-size:cover;background-repeat:no-repeat}
+.competitions-hero-copy{position:relative;padding-inline-start:38px}
+.competitions-hero .eyebrow{max-width:650px;font-size:12px;letter-spacing:3px;line-height:1.5;margin-bottom:13px;color:#fff}
+.competitions-hero h1{margin-bottom:18px;color:#fff}
+.competitions-intro{font-size:18px;line-height:1.45;max-width:475px;margin:0;color:#fff}
+
+.competition-list{position:relative;display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:25px;max-width:1400px;padding-bottom:30px;margin-top:-20px}
+.competition-card{position:relative;isolation:isolate;min-width:0;overflow:hidden;display:flex;flex-direction:column;align-items:center;padding:25px 20px 23px;border:2px solid #fff;border-radius:29px;background:#fcf8fc;box-shadow:0 10px 0 #ffffff66,0 18px 30px #6945711c;transition:transform .2s,box-shadow .2s}
+.competition-card:hover{transform:translateY(-5px);box-shadow:0 10px 0 #ffffff66,0 23px 36px #69457126}
+.competition-logo{width:220px;max-width:85%;height:175px;display:flex;align-items:center;justify-content:center;border:1px solid #9e43ad;border-radius:18px;background:linear-gradient(130deg,#fff,#f4e9f8);margin-bottom:20px;overflow:hidden}
+.competition-logo img{display:block;width:100%;height:100%;padding:10px;object-fit:contain}
+.competition-card h2{display:block;align-content:center;min-height:100px;width:100%;text-align:center;font-family:Georgia,"Times New Roman",serif;font-size:clamp(25px,2.45vw,35px);font-weight:600;line-height:1.04;letter-spacing:-1px;margin:0;color:#32133e}
+.competition-facts{display:grid;grid-template-columns:minmax(0,1fr) minmax(0,1.35fr) minmax(0,1.1fr);align-items:start;width:100%;margin:22px 0 25px;gap:0}
+.competition-fact{position:relative;min-width:0;display:flex;flex-direction:column;align-items:center;text-align:center;padding-inline:6px}
+.competition-fact+.competition-fact::before{content:"";position:absolute;left:0;top:15px;bottom:6px;width:1px;background:linear-gradient(transparent,#d8b063 15%,#d8b063 90%,transparent)}
+.fact-icon{display:block;width:32px;height:32px;fill:none;stroke:#852a98;stroke-width:1.8;stroke-linecap:round;stroke-linejoin:round;margin-bottom:8px}
+.competition-fact dt{font-size:12px;font-weight:700;color:#481654;line-height:1.25;margin-bottom:7px}
+.competition-fact dd{display:flex;flex-direction:column;align-items:center;gap:4px;margin:0;max-width:100%}
+.fact-pill{display:block;max-width:100%;padding:6px 10px;border-radius:20px;background:linear-gradient(120deg,#9b37a2,#65186f);color:#fff;font-size:12px;font-weight:750;white-space:nowrap;line-height:1.2}
+.competition-fact:nth-child(2) .fact-pill{font-size:10px;padding-inline:9px}
+.age-pill{background:#e9d7ef;color:#3b1748}
+.competition-fact small{font-size:9px;line-height:1.25;font-weight:650;color:#50215b;white-space:nowrap}
+.competition-how{display:grid;grid-template-columns:38px minmax(0,1fr);align-items:center;gap:13px;width:100%;padding:16px 14px;margin:0 0 24px;border-radius:16px;background:linear-gradient(115deg,#f0e4f6,#eedeef);min-height:114px}
+.how-icon{width:36px;height:36px;fill:none;stroke:#7a278b;stroke-width:2;stroke-linecap:round;stroke-linejoin:round}
+.competition-how>div{border-left:1px solid #a974b4;padding-left:14px}
+.competition-how h3{font-size:17px;line-height:1.2;color:#722180;margin:0 0 5px;font-weight:750}
+.competition-how p{font-size:13px;line-height:1.35;margin:0;color:#30183d}
+.competition-how strong{font-weight:600}
+.competition-button{width:100%;min-width:0;min-height:54px;margin-top:auto;padding:12px 18px;gap:12px;border:1px solid #fff;border-radius:35px;background:linear-gradient(115deg,#962699,#601465 72%,#50124f);box-shadow:0 8px 18px #76247b25,inset 0 1px 0 #ffffff55;color:white;font-size:17px;font-weight:700;cursor:pointer;font-family:inherit}
+.competition-button span{flex:1;text-align:center}
+.competition-button .icon{width:27px;height:27px}
+.competition-entry-note{max-width:1100px;text-align:center;font-size:14px;line-height:1.5;color:#66466f;margin-top:10px;margin-bottom:0;padding-bottom:50px}
+
+.entry-dialog{position:fixed;inset:0;width:min(760px,calc(100% - 32px));max-width:none;max-height:min(90vh,900px);padding:0;overflow:auto;scrollbar-width:none;-ms-overflow-style:none;border:1px solid #ffffffd9;border-radius:26px;background:linear-gradient(135deg,#fffafcf2,#f4e8f5e8);color:var(--ink);box-shadow:0 24px 80px #30113b55;-webkit-backdrop-filter:blur(24px) saturate(145%);backdrop-filter:blur(24px) saturate(145%);font-family:"Avenir Next",Avenir,"Segoe UI",sans-serif}
+.entry-dialog::-webkit-scrollbar{display:none}
+.entry-dialog::backdrop{background:#24102bb3;-webkit-backdrop-filter:blur(6px);backdrop-filter:blur(6px)}
+.entry-dialog-panel{position:relative;padding:36px}
+.entry-dialog .eyebrow{font-size:11px;letter-spacing:2.4px;margin:0 42px 10px 0}
+.entry-dialog h2{margin:0 48px 10px 0;color:#32133e;font-family:Georgia,"Times New Roman",serif;font-size:clamp(30px,5vw,42px);font-weight:500;line-height:1.05;letter-spacing:-1px}
+.entry-dialog-intro{max-width:590px;margin:0 0 22px;color:#614d68;font-size:14px;line-height:1.5}
+.entry-dialog-close{position:absolute;top:20px;right:20px;display:grid;place-items:center;width:42px;height:42px;border:1px solid #8a579340;border-radius:50%;background:#fff9;color:#542067;font-size:29px;line-height:1;cursor:pointer}
+.entry-form-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:15px 16px}
+.entry-field{display:flex;flex-direction:column;gap:7px;min-width:0;color:#481654;font-size:13px;font-weight:700}
+.entry-field-full{grid-column:1 / -1}
+.entry-field input,.entry-field select,.entry-field textarea{width:100%;min-height:46px;padding:11px 13px;border:1px solid #9a72a454;border-radius:12px;background:#ffffffc9;color:#2b1b3c;font:500 15px "Avenir Next",Avenir,"Segoe UI",sans-serif;outline:none}
+.entry-field textarea{min-height:104px;resize:vertical}
+.entry-field input:focus,.entry-field select:focus,.entry-field textarea:focus{border-color:#7c348b;box-shadow:0 0 0 3px #7c348b24}
+.entry-field input[readonly]{background:#efe5f2;color:#583b61}
+.entry-privacy-note{margin:17px 0 10px;color:#684f6d;font-size:12px;line-height:1.5}
+.entry-form-status{min-height:1.4em;margin:0 0 8px;color:#852a35;font-size:13px}
+.entry-submit{width:100%;border:0;cursor:pointer}
+@media(max-width:1250px){
+  .competitions-hero-copy{padding-inline-start:36px}
+  .competitions-hero{min-height:390px}
+  .competitions-intro{max-width:410px;font-size:17px}
+}
+@media(max-width:1100px){
+  .competition-list{grid-template-columns:repeat(2,minmax(0,1fr));gap:28px}
+  .competition-card:last-child{grid-column:1 / -1;width:calc(50% - 14px);justify-self:center}
+  .competition-card h2{font-size:32px}
+}
+@media(max-width:900px){
+  .competitions-hero{min-height:400px;background-position:60% center}
+  .competitions-hero h1{font-size:53px}
+  .competitions-intro{max-width:340px;font-size:16px}
+  .competition-card{padding-inline:16px}
+  .competition-card h2{font-size:29px}
+  .competition-fact{padding-inline:4px}
+  .fact-pill{font-size:11px;padding-inline:7px}
+  .competition-fact:nth-child(2) .fact-pill{font-size:9px;padding-inline:6px}
+  .competition-button{font-size:15px;padding-inline:14px}
+}
+@media(max-width:700px){
+  .competition-list{grid-template-columns:1fr;max-width:440px;gap:30px}
+  .competition-card:last-child{grid-column:auto;width:100%}
+  .competition-card{padding:25px 20px 24px}
+  .competition-card h2{font-size:34px}
+  .fact-pill{font-size:12px;padding-inline:10px}
+  .competition-fact:nth-child(2) .fact-pill{font-size:10px;padding-inline:8px}
+  .competition-button{font-size:17px}
+}
+@media(max-width:640px){
+  .competitions-hero{min-height:425px;padding-bottom:65px;background-position:64% center;background-image:linear-gradient(90deg,#24102bf0,#30143bc4 70%,#30143b69),url('../assets/images/competition-crown.png')}
+  .competitions-hero-copy{padding-inline-start:29px}
+  .competitions-hero .eyebrow{font-size:9px;letter-spacing:2px;max-width:270px}
+  .competitions-hero h1{font-size:clamp(37px,9.5vw,59px);line-height:1.05;letter-spacing:-1.8px}
+  .competitions-intro{max-width:300px;font-size:16px}
+  .competition-list{margin-top:-15px}
+  .competition-entry-note{font-size:13px;padding-bottom:35px}
+  .entry-dialog-panel{padding:28px 20px 22px}
+  .entry-form-grid{grid-template-columns:1fr;gap:13px}
+  .entry-field-full{grid-column:auto}
+  .entry-dialog-close{top:14px;right:14px;width:38px;height:38px}
+}
+@media(max-width:360px){
+  .competition-card{padding-inline:12px}
+  .competition-card h2{font-size:29px}
+  .fact-pill{font-size:10px;padding-inline:6px}
+  .competition-fact dt{font-size:11px}
+  .competition-fact small{font-size:8px}
+  .competition-fact:nth-child(2) .fact-pill{font-size:9px;padding-inline:6px}
+  .competition-button{font-size:16px;gap:8px}
+}

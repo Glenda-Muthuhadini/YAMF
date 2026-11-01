@@ -14,11 +14,12 @@
 .about-card{padding:28px 34px;border:1px solid #e7c9ef;border-radius:32px;background:linear-gradient(125deg,#fff9,#f4eaf8b3 70%,#ffffffbf);box-shadow:0 12px 26px #722a7d0c,inset 0 0 18px #fff;min-width:0}
 .about-page h2{font-family:Georgia,"Times New Roman",serif;font-size:40px;line-height:1.1;letter-spacing:-1.1px;font-weight:400;margin:0 0 10px;color:#21102e}
 .about-card p{font-size:16px;line-height:1.4;margin:0}
-.identity-card{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:44px;align-items:center;min-height:220px;padding-block:45px}
+.identity-card{display:grid;grid-template-columns:minmax(230px,.8fr) minmax(0,1.2fr);gap:44px;align-items:center;min-height:220px;padding-block:45px}
 .identity-card h2{position:relative;font-size:48px;margin:0;padding:0 0 20px 15px}
 .identity-card h2 span{color:#8e21a2}
 .identity-card h2::after{content:"";position:absolute;left:15px;bottom:0;width:77px;height:6px;border-radius:6px;background:#bd70d9}
-.identity-card>p{border-left:1px solid #a643a0;padding-left:44px}
+.identity-copy{display:grid;gap:16px;border-left:2px solid #a643a04d;padding-left:32px}
+.identity-copy p{font-size:16px;line-height:1.55}
 .mission-vision-grid{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:26px}
 .statement-card{display:grid;grid-template-columns:76px minmax(0,1fr);gap:24px;align-items:center;min-height:240px;padding-block:42px}
 .statement-card h2{font-size:34px}
@@ -66,8 +67,10 @@
   .about-hero{min-height:430px;background-position:60% top}
   .about-hero h1{font-size:53px;letter-spacing:-2px}
   .about-hero-description{max-width:410px;font-size:18px}
-  .identity-card{grid-template-columns:minmax(0,.8fr) minmax(0,1.2fr);gap:25px}
-  .identity-card>p{padding-left:25px}
+  .identity-card{grid-template-columns:minmax(200px,.75fr) minmax(0,1.25fr);gap:24px;padding-inline:28px}
+  .identity-card h2{font-size:36px}
+  .identity-copy{gap:14px;padding-left:22px}
+  .identity-copy p{font-size:15px;line-height:1.5}
   .identity-card h2{font-size:36px}
   .mission-vision-grid{gap:18px}
   .statement-card{grid-template-columns:1fr;gap:18px}
@@ -84,9 +87,9 @@
   .about-body{padding:34px 0 38px}
   .about-content{gap:32px}
   .about-card{padding:25px 22px;border-radius:25px}
-  .identity-card{grid-template-columns:1fr;gap:22px;padding-block:34px}
-  .identity-card h2{font-size:37px}
-  .identity-card>p{border-left:0;padding-left:0}
+  .identity-card{grid-template-columns:1fr;gap:22px;padding:30px 24px}
+  .identity-card h2{font-size:clamp(34px,9vw,40px);padding-bottom:14px}
+  .identity-copy{gap:14px;border-left:0;padding-left:0}
   .about-card p{font-size:15px;line-height:1.5}
   .mission-vision-grid{grid-template-columns:1fr;gap:32px}
   .statement-card{grid-template-columns:58px minmax(0,1fr);gap:15px;padding-block:34px}

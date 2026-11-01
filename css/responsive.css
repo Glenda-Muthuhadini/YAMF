@@ -44,6 +44,7 @@
   .purpose-pill{font-size:11px;gap:8px;padding:8px 10px}
   .purpose-pill .icon{width:24px;height:24px}
   .programme-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:18px}
+  .programme-card:last-child:nth-child(odd){grid-column:1 / -1;max-width:calc(50% - 9px);justify-self:center}
   .programme-card{min-height:245px}
   .programme-card p{max-width:260px}
   .desktop-break{display:none}
@@ -69,6 +70,7 @@
   .section-label{font-size:16px;letter-spacing:4px}
   .programmes-intro{font-size:14px;line-height:1.5;margin-bottom:20px}
   .programme-grid{gap:12px}
+  .programme-card:last-child:nth-child(odd){max-width:none;justify-self:stretch}
   .programme-card{padding:20px 12px;min-height:265px;border-radius:22px}
   .programme-card h3{font-size:21px;letter-spacing:-.6px}
   .programme-card p{font-size:13px;line-height:1.4}
@@ -81,6 +83,9 @@
   .footer-socials{margin-top:2px}
   .social-icons{justify-content:center}
   .footer-bottom{flex-direction:column;text-align:center;gap:12px;padding-top:18px;font-size:11px}
+}
+@media(max-width:480px){
+  .programme-grid{grid-template-columns:1fr}
 }
 @media(max-width:360px){
   .programme-grid{grid-template-columns:1fr}
@@ -178,4 +183,10 @@
   .hero .feature-strip{margin-top:32px;margin-bottom:0}
   .hero .feature-item:last-child:nth-child(odd){grid-column:1 / -1;border-left:0;justify-content:center}
   .hero{padding-bottom:40px}
+}
+
+@media(max-width:800px){
+  .hero .hero-art{background-image:url('../assets/images/Purple Monochrome Gown Portrait Trio.png');background-position:64% center;background-size:cover;opacity:1;-webkit-mask-image:none;mask-image:none}
+  .hero .eyebrow,.hero #hero-title,.hero .hero-description,.hero .feature-item{color:#fff}
+  .hero .hero-actions .button-outline{color:#fff;border-color:#fff}
 }
