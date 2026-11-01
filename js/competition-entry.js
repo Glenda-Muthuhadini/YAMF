@@ -86,6 +86,10 @@ if (entryDialog) {
       status.textContent = 'Your browser blocked the WhatsApp window. Allow pop-ups and submit again.';
     } else {
       whatsappWindow.opener = null;
+      entryForm.reset();
+      ageInput.value = '';
+      status.textContent = '';
+      entryDialog.close();
     }
   });
 }
