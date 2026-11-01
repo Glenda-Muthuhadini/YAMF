@@ -1,0 +1,94 @@
+.contact-shell{background:radial-gradient(ellipse at 15% 65%,#f3eaf5 10%,transparent 65%),linear-gradient(145deg,#dbc1e0,#f5eaf5 65%,#e3d0e8)}
+.contact-hero{position:relative;min-height:540px;padding-top:var(--hero-clearance);padding-bottom:145px;display:flex;align-items:center;color:white;background-color:#32103d;background-image:linear-gradient(90deg,#2b0e3a80,transparent 75%),url('../assets/images/Regal Purple Crown on Reflective Bokeh.png');background-position:center,68% top;background-size:cover;background-repeat:no-repeat}
+.contact-hero-copy{padding-inline-start:38px}
+.contact-hero h1{margin-bottom:20px}
+.contact-hero-copy>p{position:relative;font-size:20px;line-height:1.45;max-width:510px;margin:0;padding-bottom:30px}
+.contact-hero-copy>p::after{content:"";position:absolute;left:0;bottom:0;height:2px;width:140px;background:linear-gradient(90deg,#f2c851,#d2a53d55)}
+.contact-content{position:relative;max-width:1250px;margin-top:-76px;padding-bottom:70px}
+.contact-layout{display:grid;grid-template-columns:minmax(0,.8fr) minmax(0,1.3fr);gap:26px;align-items:stretch}
+.contact-panel{min-width:0;padding:38px 30px;border:1px solid #ffffffe6;border-radius:34px;background:linear-gradient(120deg,#ffffff78,#f9f1fb96 50%,#f1e0f38c);box-shadow:0 16px 35px #58325e1c,inset 0 1px 0 #fff9;-webkit-backdrop-filter:blur(20px);backdrop-filter:blur(20px)}
+.contact-page h2,.contact-page h3{font-family:Georgia,"Times New Roman",serif;color:#481353;font-weight:400;letter-spacing:-1px;line-height:1.12}
+.contact-panel h2{font-size:40px;margin:0 0 32px}
+.contact-methods{display:grid;gap:25px;font-style:normal;margin:0}
+.contact-methods>a,.contact-methods>div{display:flex;align-items:center;gap:18px;font-size:18px;line-height:1.4;min-width:0}
+.contact-methods>a>span:last-child{overflow-wrap:anywhere;min-width:0}
+.contact-methods>a:hover{color:#922b99}
+.contact-icon-tile{width:58px;height:58px;flex-shrink:0;display:flex;align-items:center;justify-content:center;color:#fff;border:1px solid #fff8;border-radius:20px;background:linear-gradient(135deg,#9c469e,#511755 75%);box-shadow:0 9px 14px #67336f24,inset 0 1px 0 #ffffff30}
+.contact-icon-tile .icon{width:31px;height:31px;stroke-width:1.8}
+.contact-follow{position:relative;margin-top:40px;padding-top:32px}
+.contact-follow::before{content:"";position:absolute;top:0;left:0;right:0;height:1px;background:linear-gradient(90deg,transparent,#d6b04d 30%,#d6b04d 70%,transparent)}
+.contact-follow h3{font-size:32px;margin:0 0 13px}
+.contact-follow p{font-size:16px;line-height:1.5;margin:0;max-width:340px}
+.contact-socials{display:flex;flex-wrap:wrap;gap:15px;margin-top:28px}
+.contact-form-panel h2{margin-bottom:30px}
+#contact-form{display:grid;gap:20px}
+.contact-name-email{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px}
+.contact-field{display:flex;flex-direction:column;gap:8px;min-width:0}
+.contact-field label{font-size:15px;font-weight:550;color:#491753}
+.contact-field label span{color:#7b2586}
+.contact-field input,.contact-field select,.contact-field textarea{width:100%;min-width:0;border:1px solid #a98bab;border-radius:15px;background:#fff9;box-shadow:inset 0 1px 2px #fff,0 6px 12px #57305909;color:var(--ink);font:inherit;font-size:16px;padding:15px 17px}
+.contact-field input,.contact-field select{min-height:54px}
+.contact-field textarea{resize:vertical;min-height:220px;line-height:1.5}
+.contact-field input:focus-visible,.contact-field select:focus-visible,.contact-field textarea:focus-visible{outline:3px solid #b47dc2;outline-offset:3px;border-color:#864194}
+.contact-form-note{font-size:13px;line-height:1.45;text-align:center;margin:0;color:#644e6b}
+.contact-submit{justify-self:center;min-width:280px;gap:15px;border-radius:40px;border-color:#ffffffcc;padding:13px 28px;font-size:18px;background:linear-gradient(115deg,#a6419c,#50124f);box-shadow:0 10px 23px #762d7733,inset 0 1px 0 #ffffff45;cursor:pointer}
+.contact-submit .icon{width:28px;height:28px}
+.contact-form-status{font-size:14px;line-height:1.5;margin:0;text-align:center;color:#542067}
+.contact-form-status:empty{display:none}
+.partnership-panel{display:flex;align-items:center;gap:30px;margin-top:42px;padding:42px 38px}
+.partnership-icon{display:flex;align-items:center;justify-content:center;width:100px;height:100px;flex-shrink:0;border:1px solid white;border-radius:28px;background:linear-gradient(125deg,#fcf1e4,#e6c8b2);box-shadow:0 8px 20px #9b704614}
+.partnership-icon .icon{width:58px;height:58px;color:#4b2a42;stroke-width:1.4}
+.partnership-copy{border-left:1px solid #8d3e91;padding-left:30px;flex:1;min-width:0}
+.partnership-copy h2{font-size:32px;margin:0 0 12px}
+.partnership-copy p{font-size:18px;line-height:1.45;margin:0;max-width:600px}
+.partnership-button{border:1px solid #d0a343;border-radius:30px;color:#6b1b70;background:#fff6;gap:15px;flex-shrink:0;cursor:pointer}
+@media(max-width:1250px){
+  .contact-hero-copy{padding-inline-start:36px}
+  .contact-panel{padding:32px 25px}
+  .contact-panel h2{font-size:35px}
+  .contact-methods>a,.contact-methods>div{font-size:16px;gap:13px}
+  .contact-icon-tile{width:52px;height:52px;border-radius:17px}
+  .contact-socials{gap:12px}
+  .partnership-panel{gap:24px}
+  .partnership-copy{padding-left:24px}
+  .partnership-copy h2{font-size:29px}
+  .partnership-copy p{font-size:16px}
+  .partnership-icon{width:80px;height:80px;border-radius:23px}
+}
+@media(max-width:900px){
+  .contact-layout{grid-template-columns:1fr}
+  .contact-details{display:grid;grid-template-columns:1fr 1fr;gap:24px}
+  .contact-details>h2{grid-column:1 / -1;margin:0}
+  .contact-follow{margin:0;padding:0 0 0 24px;border-left:1px solid #c7a3c5}
+  .contact-follow::before{display:none}
+  .contact-socials{gap:9px}
+  .contact-socials .contact-icon-tile{width:44px;height:44px;border-radius:14px}
+  .partnership-panel{flex-wrap:wrap}
+  .partnership-button{margin-left:104px}
+}
+@media(max-width:640px){
+  .contact-hero{min-height:440px;padding-bottom:110px;background-position:center,65% top;background-image:linear-gradient(90deg,#2b0e3ad9,#2b0e3a55),url('../assets/images/Regal Purple Crown on Reflective Bokeh.png')}
+  .contact-hero-copy{padding-inline-start:29px}
+  .contact-hero-copy>p{font-size:17px;max-width:340px}
+  .contact-content{margin-top:-55px;padding-bottom:38px}
+  .contact-panel{padding:28px 22px;border-radius:27px}
+  .contact-panel h2{font-size:32px}
+  .contact-details{display:block}
+  .contact-details>h2{margin-bottom:25px}
+  .contact-methods{gap:20px}
+  .contact-follow{margin-top:30px;padding:28px 0 0;border-left:0}
+  .contact-follow::before{display:block}
+  .contact-follow h3{font-size:29px}
+  .contact-follow p{font-size:15px}
+  .contact-socials{gap:14px;margin-top:22px}
+  .contact-socials .contact-icon-tile{width:50px;height:50px}
+  .contact-name-email{grid-template-columns:1fr;gap:20px}
+  .contact-field textarea{min-height:200px}
+  .contact-submit{min-width:0;width:100%;font-size:17px}
+  .partnership-panel{margin-top:28px;gap:20px}
+  .partnership-icon{width:65px;height:65px;border-radius:20px}
+  .partnership-icon .icon{width:43px;height:43px}
+  .partnership-copy{border-left:0;padding-left:0;flex-basis:100%}
+  .partnership-copy h2{font-size:29px}
+  .partnership-button{margin:0;min-height:46px;font-size:15px}
+}
