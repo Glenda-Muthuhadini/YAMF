@@ -16,7 +16,7 @@ Shared styles are in `css/style.css`, responsive adjustments in `css/responsive.
 
 The shared glass header stays fixed while scrolling, floating 16px from the viewport top on desktop and 12px on phones. Its height is 80px on desktop, 76px on tablets, and 72px on phones. The original logo scales proportionally. Home, About and Gallery hero backgrounds start at the page top behind the header; shared clearance variables keep hero copy below it. Anchor scrolling also accounts for the header height.
 
-The Our Brands section follows the hero with three non-clickable brand cards and hover animations, using the supplied emblems in `assets/images/brands/`. The cards stack on mobile. The Gallery page's Miss Teen Elegant South Africa section uses photos from `assets/images/Miss Teen Elegant South Africa/`.
+The Our Brands section follows the hero with four non-clickable brand cards and hover animations, using the supplied emblems in `assets/images/brands/`. The cards display in one row on larger screens and stack on mobile. The Gallery page's Miss Teen Elegant South Africa section uses photos from `assets/images/Miss Teen Elegant South Africa/`.
 
 The Gallery page reuses the landing-page navigation and groups square photos by pageant and programme. Photos open in an accessible image viewer with previous/next controls and keyboard navigation.
 
